@@ -1,0 +1,95 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Document</title>
+    <style>
+        *{
+            margin: 0;
+            padding: 0;
+            font-family: sans-serif;
+        }
+        .container{
+            height: 100vh;
+            width: 100%;
+            background-image: url(music-wallpaper-1024x768-wallpaper.jpg);
+            background-size: cover;
+            background-position: center;
+            position: relative;
+        }
+        .navbar{
+            width: 88%;
+            margin: auto;
+            padding: 15px 0;
+            display: flex;
+            align-items: center;
+            justify-content: space-between;
+        }
+        .navbar ul li{
+            list-style: none;
+            display: inline-block;
+            margin: 0 15px;
+        }
+        .navbar ul li a{
+                 text-decoration: none;
+                 color: antiquewhite;
+                 font-size: 15px;
+        }
+        .right-col{
+            float: right;
+            margin-right: 30%;
+            margin-top: 240px;
+            display: flex;
+            align-items: center;
+
+        }
+        .imgbox{
+width: 100%;
+height: 240px;
+position: relative;
+}
+.imgbox img{
+position: absolute;
+top: 0;
+left: 0;
+object-fit: cover;
+height: 100%;
+width: 100%; 
+border-top-left-radius: 20px;
+border-top-right-radius: 20px;
+}
+.player{
+position: absolute;
+width: 350px;
+background: #f1f3f4;
+border-radius: 20px;
+box-shadow: 0 50px 80px rgba(0,0,0,0.5);
+}
+    </style>
+</head>
+<body>
+    <div class="container">
+        <div class="navbar">
+            <ul>
+                <li><a href="#">HOME</a></li>
+                <li><a href="#">ABOUT</a></li>
+                <li><a href="#">SPECIFICATIONS</a></li>
+                <li><a href="#">CONNECT</a></li>
+            </ul>
+        </div>
+        <div class="right-col">
+            <div class="player">
+            <div class="imgbox" >
+                <img src="WhatsApp Image 2023-03-10 at 8.38.41 AM (1).jpeg" alt="yk"/>
+            </div>
+            <audio src="02. Hardwell feat. Jason Derulo - Follow Me (Original Mix)-[RedMaza.CoM].mp3" type="audio/mp3" controls ></audio>
+             </div>
+        </div> 
+
+
+    </div>
+
+</body>
+</html>
